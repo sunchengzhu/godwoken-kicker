@@ -54,7 +54,7 @@ services:
       - ckb
 
   ckb-indexer:
-    image: nervos/ckb-indexer:0.3.2
+    image: nervos/ckb-indexer:0.4.3
     init: true
     environment:
       CKB_RPC: http://ckb:8114
